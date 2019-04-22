@@ -1,0 +1,226 @@
+body {
+    background: url("background.jpg") no-repeat, url("download.jpg") repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    float: left;
+}
+
+header {
+    text-align: center;
+    color: #878787;
+    background-color: #000000;
+    height : 100px;
+    width: 100%;
+    line-height: 0.5px;
+}
+
+h1 {
+    font-size: 25pt;
+    padding-top: 35px;
+}
+
+p {
+    font-size: 17pt;
+}
+
+
+.top {
+	width: 1500px;
+    margin:25px auto;
+}
+ 
+nav.menu ul {
+	overflow:hidden;
+	color: #000000;
+	list-style: none;
+	padding:0;
+	width: 1500px;
+	margin:0;
+	background:#878787;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+    box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+    border-bottom: 8px black;
+}
+ 
+nav.menu ul li {
+    margin-left: 180px;
+    margin-right:180px;
+	float:left;
+}
+ 
+nav.menu ul a {
+	padding:25px;
+	display:block;
+	font-weight:600;
+	font-size: 20px;
+	color: black;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+ 
+nav.menu ul a:hover {
+	text-decoration: none;
+	background:#595555;
+}
+
+.product1 {
+	float: right;
+    width:275px;
+    text-align: center;
+}
+ 
+.product1 .banner {
+	padding:25px;
+    margin:0 0 25px;
+    background:#000000;
+    border-bottom: 2px solid #878787;
+	transition: all 0.5s ease;
+}
+ 
+.product1 .banner:hover {
+	border-bottom: 2px solid #bacfdd;
+}
+ 
+.product1 .banner h2 {
+	padding:0;
+	margin:0 0 0 0;
+	color:#878787;
+	font-size: 18px;
+	font-weight:800;
+}
+ 
+.product1 .banner p {
+	font-size: 14px;
+}
+ 
+.product1 .banner p:last-child {
+	margin-bottom: 0;
+}
+
+.product2 {
+	float: center;
+    width:275px;
+    text-align: center;
+}
+ 
+.product2 .banner2 {
+	padding:25px;
+	margin:0 0 25px;
+	background:#000000;
+	border-bottom: 2px solid #878787;
+	transition: all 0.5s ease;
+}
+ 
+.product2 .banner2:hover {
+	border-bottom: 2px solid #bacfdd;
+}
+ 
+.product2 .banner2 h2 {
+	padding:0;
+	margin:0 0 15px;
+	color: #878787;
+	font-size: 18px;
+	font-weight:800;
+}
+ 
+.product2 .banner2 p {
+    font-size: 14px;
+}
+ 
+.product2 .banner2 p:last-child {
+    margin: 0;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+h3 {
+    font-size: 20pt;
+    color: white;
+    text-align: center;
+    background-color: #000000;
+    opacity: 0.7;
+    padding-left: 300px;
+}
+
+.deskripsi {
+    font-size: 15pt;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.layanan{
+    height: 150px;
+    width: 100%;
+    font-family: Arial;
+    color:whitesmoke;
+    background-color: rgba(0,0,0,0.8);
+    padding-top: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.layanan li{
+  display: inline-block;
+  padding: 15px;
+
+}
+
+.sosmed {
+    font-size: 30px;
+}
+
+.layanan img {
+  width : 50px;
+  height : 50px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.profil{
+    background-image: url(./profil.jpg);
+    background-position: 100%;
+    height:200px;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 10px;
+    font-family: Arial;
+    font-size: 20px;
+    color:whitesmoke;  
+    text-decoration: none;
+}
+
+.profil li {
+    display: inline-block;
+    padding: 60px;
+    background-color: rgb(0, 0, 0, 0.8);
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.link{
+    font-size: 13pt;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #687b91
+}
+
+.link:link{
+    color: white;
+}
+
+.link:visited {
+    background: #3e4854
+}
